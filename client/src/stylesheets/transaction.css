@@ -1,0 +1,85 @@
+.tx-btn {
+	/* layout */
+	padding: 10px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 2;
+	
+	/* style */
+	background-color: #ff9999;
+	border-radius: 5px;
+	border-style: none;
+	
+	/* font */
+	font-size: 15px;
+	color: #ffffff;
+}
+
+.tx-popup {
+	/* layout */
+	position: fixed;
+	width: 220px;
+	height: auto;
+	top: 20px;
+	right: 20px;
+	z-index: 1;
+	overflow: hidden;
+	padding: 15px;
+
+	/* style */
+	background-color: #ffffff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+}
+
+.tx-popup-hide {
+	/* layout */
+	float: right;
+	padding: 5px;
+	margin-bottom: 10px;
+
+	/* style */
+	background-color: #ff9999;
+	border-radius: 5px;
+
+	/* font */
+	color: #ff1a1a;
+}
+.tx-popup-hide:hover {
+	cursor: pointer;
+}
+
+.tx-input-container {
+	height: 40px;
+}
+
+.tx-popup label {
+	/* layout */
+	margin-right: 5px;
+}
+
+.tx-popup select {
+	/* layout */
+	margin-bottom: 10px;
+
+	/* font */
+}
+
+.tx-popup input[type="text"] {
+	/* layout */
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+
+	/* style */
+	border: 1px solid black;
+	border-radius: 5px;
+
+	/* font */
+	font-size: 15px;
+}
+
+.tx-submit {
+	margin-top: 20px;
+}

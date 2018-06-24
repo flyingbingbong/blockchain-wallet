@@ -1,0 +1,149 @@
+.wallet-container {
+	overflow: hidden;
+}
+
+.wallet {
+	/* layout */
+	position: relative;
+	float: left;
+	width: 500px;
+	padding: 15px;
+	margin: 10px;
+	
+	/* style */
+	background-color: #f2f2f2;
+	border-radius: 10px;
+}
+
+.wallet-name {
+	/* layout */
+	display: block;
+	margin-bottom: 10px;
+	padding-left: 10px;
+
+	/* font */
+	font-weight: bold;
+}
+
+.wallet-attr {
+	/* layout */
+	padding: 15px;
+	margin-bottom: 10px;
+	line-height: 25px;
+
+	/* style  */
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+
+.wallet-attr-label, .utxo-attr-label, .utxo-IOputs-label {
+	/* font */
+	font-weight: bold;
+}
+
+.wallet-attr-value, .utxo-attr-value, .utxo-IOputs-value {
+	/* layout */
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.utxo-container {
+	/* layout */
+	max-height: 500px;
+	overflow-y: auto;
+	padding: 0;
+}
+
+.utxo {
+	/* layout */
+	padding: 15px;
+	margin-bottom: 10px;
+
+	/* style */
+	list-style-type: none;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+}
+
+.ioputs-container {
+	padding: 0;
+}
+
+.ioput {
+	/* layout */
+	padding: 15px;
+	margin-bottom: 10px;
+
+	/* style */
+	list-style-type: none;
+	background-color: #ffcccc;
+	border-radius: 10px;
+}
+
+.wallet-create-btn {
+	/* layout */
+	padding: 10px;
+	position: fixed;
+	bottom: 20px;
+	right: 170px;
+	z-index: 2;
+	
+	/* style */
+	background-color: #ff9999;
+	border-radius: 5px;
+	border-style: none;
+	
+	/* font */
+	font-size: 15px;
+	color: #ffffff;
+}
+
+.wallet-create-popup {
+	/* layout */
+	position: fixed;
+	width: 220px;
+	height: auto;
+	top: 20px;
+	right: 20px;
+	z-index: 1;
+	overflow: hidden;
+	padding: 15px;
+
+	/* style */
+	background-color: #ffffff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+}
+
+.wallet-popup-hide {
+	/* layout */
+	float: right;
+	padding: 5px;
+	margin-bottom: 10px;
+
+	/* style */
+	background-color: #ff9999;
+	border-radius: 5px;
+
+	/* font */
+	color: #ff1a1a;
+}
+.wallet-popup-hide:hover {
+	cursor: pointer;
+}
+
+.wallet-popup-input {
+	/* layout */
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+
+	/* style */
+	border: 1px solid black;
+	border-radius: 5px;
+
+	/* font */
+	font-size: 15px;
+}

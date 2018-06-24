@@ -1,0 +1,7 @@
+--require ts-node/register
+--require ignore-styles
+--require client/src/tests/setup.ts
+-w 
+-D
+--watch-extensions ts,tsx 
+-R min

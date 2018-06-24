@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"lib": ["ES2015", "dom"],
+		"allowJs": false,
+		"skipLibCheck": true,
+		"jsx": "react"
+	},
+	"include": ["../client/src/**/*.tsx"],
+	"exclude": [
+		"../node_modules"
+	],
+	"types": ["react", "mocha"]
+}

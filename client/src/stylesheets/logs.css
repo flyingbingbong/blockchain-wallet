@@ -1,0 +1,35 @@
+.log-container {
+	/* layout */
+	height: 200px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	overflow-y: auto;
+
+	/* style */
+	background-color: #262626;
+
+	/* font */
+	color: #ffffff;
+}
+
+.log-container ul {
+	padding: 5px;
+	padding-left: 10px;
+}
+
+.log {
+	list-style-type: none;
+}
+
+.log-time {
+	color: #ffd633;
+	margin-right: 10px;
+}
+
+.log-type {
+	color: #ff8080;
+	margin-right: 10px;
+}
